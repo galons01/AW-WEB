@@ -1,0 +1,117 @@
+.container { 
+	position: absolute; 
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar {
+    position:fixed;
+    top:0; bottom:0; left:0;
+    width:21%;
+    background: #E7EBF0;
+    color: gray;
+    font-family: helvetica;
+}
+
+#title {
+	padding: 10px;
+	text-align: center;
+	font-family: verdana;
+	font-size: 1em;
+}
+
+#links {
+	min-height: 50%;
+	height: auto;
+	padding: 10px;
+}
+
+.navButton {
+	text-align: center;
+	border: 1px solid red;
+    border-radius: 15px;
+	border-color: black;
+	font-size: 1em;
+	margin: 20px;
+	padding: 10px;
+}
+
+.navButton a:hover, a:active {
+    color: red;
+}
+
+.navButton a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+#content { 
+	position: fixed;
+	background: #bcbcbc;
+	top: 0; left: 21%;
+	width:74%; height:95%; 
+	padding: 10px 50px 25px 20px;
+    overflow: auto;
+    font-family: helvetica;
+}
+
+#content p img {
+	width: 200px;
+	height: 200px;
+	margin: 0 20px 0 0;
+}
+
+#content p {
+	display: flex;
+	font-family: verdana;
+}
+
+#tabla {
+	width: 100%;
+	text-align: center;
+}
+
+#content table img{
+	width: 100px;
+	height: 100px;
+}
+
+table#tabla th{
+	color: white;
+    background: #000;
+    padding: 5px;
+}
+
+table#tabla tr:nth-child(even) {
+    background-color: #eee;
+}
+table#tabla tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+#contacto div {
+	font-family: candara;
+	font-size: 12pt;
+	/*background: #ededed;*/
+	padding: 10px 10px 10px 0;
+}
+
+.textBox {
+	width: 100%;
+}
+
+#col-right  {
+	text-align: right;
+}
+
+#col-left {
+	text-align: left;
+}
+
+#submitInfo {
+	width: 50%;
+	text-align: left ;
+}

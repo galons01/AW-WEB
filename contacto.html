@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Practica 1 AW </title>
+	<link rel="stylesheet" type="text/css" href="mycss.css">
+</head>
+<body>
+	<div class="container">
+
+		<div id="sidebar">
+			<div id="title"> <h1> THIS IS JUST A TEST </h1> </div>
+			<div id="links">
+				<div class="navButton"> <a href="index.html">INDEX</a> </div>
+				<div class="navButton"> <a href="detalles.html">DETALLES</a> </div>
+				<div class="navButton"> <a href="bocetos.html">BOCETOS</a> </div>
+				<div class="navButton"> <a href="miembros.html">MIEMBROS</a> </div>
+				<div class="navButton"> <a href="planes.html">PLANIFICACION</a> </div>
+				<div class="navButton"> <a href="contacto.html">CONTACTO</a> </div>
+			</div>
+		</div>
+
+		<div id="content"> 
+			<h1> Contacto </h1>
+			<form id="contacto" action="/sending_comment.php">
+				<table id="submitInfo">
+					<tr>
+						<td class="col-right">Nombre</td>
+						<td class="col-left"><input type="text" name="name" required></td>
+					</tr>
+					<tr>
+						<td class="col-right">Email</td>
+						<td class="col-left"><input type="email" name="mail" required></td>
+					</tr>
+					<tr >
+						<td class="col-right">Motivo de la consulta</td>
+						<td class="col-left">
+							<input type="radio" name="motivo" value="evaluation" checked> Evaluación <br>
+							<input type="radio" name="motivo" value="suggestion" > Sugerencias <br>
+							<input type="radio" name="motivo" value="critics" > Criticas <br>
+						</td>
+					</tr>
+				</table>
+				<div>
+					<input type="checkbox" name="conditions" value="agreed" required> 
+					Marque esta casilla para verificar que ha leido <a href="terms.html">nuestros terminos y condiciones</a>.
+				</div>
+				<div>
+					Comentario <br>
+					<input type="text" class="textBox" name="comment" size="20" required>
+				</div>
+			<!--
+				<div>
+					Nombre: 
+					<input type="text" name="name" required>
+				</div>
+				<div>
+					Email: 
+					<input type="email" name="mail" required>
+				</div>
+				<div>
+					Motivo de la consulta:	<br>
+					<input type="radio" name="motivo" value="evaluation" checked> Evaluación <br>
+					<input type="radio" name="motivo" value="suggestion" > Sugerencias <br>
+					<input type="radio" name="motivo" value="critics" > Criticas <br>
+				</div>
+				<div>
+					<input type="checkbox" name="conditions" value="agreed" required> 
+					Marque esta casilla para verificar que ha leido <a href="terms.html">nuestros terminos y condiciones</a>.
+				</div>
+				<div>
+					Comentario <br>
+					<input type="text" class="textBox" name="comment" size="20" required>
+				</div>
+			-->
+			<div style="text-align: center;">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>
