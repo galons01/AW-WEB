@@ -56,17 +56,20 @@ a:visited {
 	padding: 10px 50px 25px 20px;
     overflow: auto;
     font-family: helvetica;
+    font-size: 14pt;
 }
 
-#content p img {
-	width: 200px;
-	height: 200px;
+#content .desc {
+	padding-top: 20px;
+	font-family: georgia;
+	font-size: 1.3em;
+}
+
+#content #logo {
+	float: left;
+	width: 350px;
+	height: 350px;
 	margin: 0 20px 0 0;
-}
-
-#content p {
-	display: flex;
-	font-family: verdana;
 }
 
 #tabla {
@@ -114,4 +117,13 @@ table#tabla tr:nth-child(odd) {
 #submitInfo {
 	width: 50%;
 	text-align: left ;
+}
+
+#usersTableInfo {
+	padding: 5px;
+	width: 100%;
+}
+
+#usersTableInfo .tdColor {
+	color: blue;
 }
