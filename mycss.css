@@ -131,3 +131,20 @@ table#tabla tr:nth-child(odd) {
 #usersTableInfo .tdColor {
 	color: blue;
 }
+
+#plans {
+	width: 100%;
+}
+
+#plans th{
+	color: white;
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#plans td{
+	background-color: #eee;
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
