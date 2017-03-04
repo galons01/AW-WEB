@@ -86,6 +86,10 @@ a:visited {
 	height: 100px;
 }
 
+#tabla td{
+	padding: 5px 10px 5px 10px;
+}
+
 table#tabla th{
 	color: white;
     background: #000;
