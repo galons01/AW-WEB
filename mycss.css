@@ -82,8 +82,8 @@ a:visited {
 }
 
 #content table img{
-	width: 100px;
-	height: 100px;
+	width: 125px;
+	height: auto;
 }
 
 #tabla td{
@@ -101,6 +101,14 @@ table#tabla tr:nth-child(even) {
 }
 table#tabla tr:nth-child(odd) {
     background-color: #fff;
+}
+
+#tabla span {
+	font-weight: bolder;
+}
+
+.tdLeftAlign {
+	text-align: left;
 }
 
 #contacto div {
@@ -150,5 +158,9 @@ table#tabla tr:nth-child(odd) {
 #plans td{
 	background-color: #eee;
 	text-align: center;
-	padding: 5px 0 5px 0;
+	padding: 10px 0 10px 0;
+}
+
+#centerSubmit {
+	text-align: center;
 }
