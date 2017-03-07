@@ -164,3 +164,28 @@ table#tabla tr:nth-child(odd) {
 #centerSubmit {
 	text-align: center;
 }
+
+#vistas {
+	width: 100%;
+	text-align: center;
+	background: #bbbbbb;
+}
+
+#vistas td {
+	padding: 10px;
+}
+
+#vistas span {
+	font-size: 14px;
+	font-style: italic;
+}
+
+table#vistas tr:nth-child(odd) {
+    background-color: #222;
+    color: white;
+}
+
+#content #vistas img {
+	width: 700px;
+	height: auto;
+}
